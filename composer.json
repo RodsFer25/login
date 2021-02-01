@@ -1,0 +1,35 @@
+{
+    "name": "rodsfer25/authphp",
+    "description": "Uma simples peça de login para o seu quebra-cabeças, código aberto :)",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodolfo Fernandes R de O Torres",
+            "email": "rfrot25@gmail.com",
+            "role": "Developer",
+            "homepage": "https://github.com/RodsFer25"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source"
+        },
+        "files": [
+            "source/config.php",
+            "source/helpers.php"
+        ]
+    },
+    "require": {
+        "php": "^5.6 || ^7.0 || ^8.0",
+        "ext-json": "*",
+        "coffeecode/router": "1.0.7",
+        "coffeecode/datalayer": "1.1.4",
+        "coffeecode/optimizer": "2.0.0",
+        "phpmailer/phpmailer": "6.1.4",
+        "league/plates": "v4.0.0-alpha",
+        "league/oauth2-facebook": "2.0.1",
+        "league/oauth2-google": "3.0.2",
+        "matthiasmullie/minify": "1.3.61"
+    }
+}
